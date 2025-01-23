@@ -1,5 +1,4 @@
--- MYSQL
--- 하나 이상 옵션 포함된 자동차 종류 별 몇대?
+-- ORACLE
 SELECT CAR_TYPE, COUNT(CAR_ID) AS CARS
 FROM CAR_RENTAL_COMPANY_CAR 
 WHERE REGEXP_LIKE (OPTIONS, '통풍시트|열선시트|가죽시트')
